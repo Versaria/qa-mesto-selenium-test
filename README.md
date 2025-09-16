@@ -110,7 +110,7 @@ WebElement card = wait.until(ExpectedConditions.visibilityOfElementLocated(
 ```
 
 ## 📜 Лицензия
-MIT License
+MIT License. Полный текст доступен в файле [LICENSE](https://github.com/Versaria/qa-mesto-selenium-test/blob/main/LICENSE).
 
 ## 🤝 Как внести вклад
 1. Форкните репозиторий
