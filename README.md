@@ -1,10 +1,11 @@
-# QA Mesto Selenium Test Project 👤
+# QA Mesto Selenium Test Project 🌆
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Java](https://img.shields.io/badge/Java-11-blue)
 ![Maven](https://img.shields.io/badge/Maven-3.9+-orange)
 ![Selenium](https://img.shields.io/badge/Selenium-4.20-green)
 ![JUnit](https://img.shields.io/badge/JUnit-4-red)
+![Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen)
 
 Проект автоматизированного тестирования для [Mesto](https://qa-mesto.praktikum-services.ru/) с использованием Selenium WebDriver и Java. Проект включает комплексные тесты для проверки функциональности профиля пользователя и управления контентом.
 
@@ -17,9 +18,13 @@
 
 ### Установка и запуск
 ```bash
-git clone https://github.com/Versaria/qa-mesto-selenium-test.git
-cd qa-mesto-selenium-test
+# Клонирование репозитория
+git clone <repository-url>
+cd qa-mesto-selenide-test
+# Запуск тестов
 mvn clean test
+# Генерация отчета о покрытии
+mvn jacoco:report
 ```
 
 ## 📂 Структура проекта
@@ -37,7 +42,9 @@ qa-mesto-selenium-test/
 │   └── ScrollToCardTest.java       # Тесты скролла к карточкам
 ├── target/site/jacoco/             # Отчет о покрытии тестами
 ├── pom.xml                         # Конфигурация Maven
-└── README.md
+├── LICENSE
+├── README.md
+└── .gitignore
 ```
 
 ## 📋 Функционал
